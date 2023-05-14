@@ -11,7 +11,7 @@ NProgress.configure({
 	trickleRate: 0.2,
 });
 
-axios.defaults.baseURL = 'https://www.beyondhorizon.top/api';
+axios.defaults.baseURL = 'https://beyondhorizon.top/api';
 // axios.defaults.baseURL = 'http://localhost:8888/api';
 axios.defaults.timeout = 120000; // 设置默认timeout为2分钟
 
