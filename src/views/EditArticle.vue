@@ -55,7 +55,7 @@
                 <div class="imgUp">
                     <el-upload :on-error="this.upError"
                                :on-success="this.upSuccess"
-                               action='https://www.beyondhorizon.top/api/admin/upload/img'
+                               action='https://beyondhorizon.top/api/admin/upload/img'
                                auto-upload
                                class="upload-demo"
                                :headers="token"
