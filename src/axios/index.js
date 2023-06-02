@@ -11,8 +11,9 @@ NProgress.configure({
 	trickleRate: 0.2,
 });
 
-axios.defaults.baseURL = 'https://beyondhorizon.top/api';
+// axios.defaults.baseURL = 'https://beyondhorizon.top/api';
 // axios.defaults.baseURL = 'http://localhost:8888/api';
+axios.defaults.baseURL = 'https://blog.vio.vin/api';
 axios.defaults.timeout = 120000; // 设置默认timeout为2分钟
 
 //前置拦截
